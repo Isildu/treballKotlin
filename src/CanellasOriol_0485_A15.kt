@@ -161,23 +161,23 @@ fun main(){
                 }else if(numeroIA == 1){
                     println("Jugador a tret Spock\n"+
                             "IA a tret Pedra\n"+
-                            "IA Guanya")
-                    contadorpartidasP ++
+                            "Jugador Guanya")
+                    contadorpartidasG ++
                 }else if(numeroIA == 2){
                     println("Jugador a tret Spock\n"+
                             "IA a tret Paper\n"+
-                            "Jugador Guanya")
-                    contadorpartidasG ++
+                            "IA Guanya")
+                    contadorpartidasP ++
                 }else if(numeroIA == 3){
                     println("Jugador a tret Spock\n"+
                             "IA a tret Tisores"+
-                            "IA Guanya")
-                    contadorpartidasP ++
+                            "Jugador Guanya")
+                    contadorpartidasG ++
                 }else {
                     println("Jugador a tret Spock\n"+
                             "IA a tret Llengardaix\n"+
-                            "Jugador Guanya")
-                    contadorpartidasG ++
+                            "IA Guanya")
+                    contadorpartidasP ++
                 }
             }
             }
