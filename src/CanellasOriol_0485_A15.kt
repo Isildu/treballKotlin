@@ -28,7 +28,7 @@ fun main(){
     "5) Spock\n")
     do {
         var numeroIA = (1..5).random()
-        println(numeroIA) //Chivato
+        //println(numeroIA) //Chivato
         do {
             println("Donam un numero enter")
             if (lector.hasNextInt()){
@@ -97,7 +97,6 @@ fun main(){
                 validacio = false
             }
         }while (!validacio)
-        println(numero)
     } while (numero != 0)
     println("Has jugat un total de $contadorpartidas partidas\n"+
     "Has guanyat el ${(contadorpartidasG/contadorpartidas) * 100}% de les partidas \n"+
